@@ -43,8 +43,14 @@ body {
   width: 260px;
   height: 260px;
   border-radius: 50%;
-  box-shadow: 0 0 30px rgb(0, 0, 0), 0 0 40px rgb(0, 0, 0),
-    0 0 50px rgba(0, 0, 0, 0.555);
+  box-shadow: 3px 3px 5px rgb(0, 0, 0), -5px -5px 10px rgb(0, 0, 0),
+    -3px -3px 5px white, 5px 5px 10px rgb(0, 0, 0), -3px 3px 5px white,
+    -5px 5px 10px rgb(0, 0, 0), 3px -3px 5px white, 5px -5px 10px rgb(0, 0, 0),
+    3px 3px 10px white, -10px -10px 20px rgb(0, 0, 0),
+    -3px -3px 10px rgba(255, 255, 255, 0.808), 10px 10px 20px rgb(0, 0, 0),
+    -3px -3px 10px rgba(2, 2, 2, 0.808), -10px 10px 20px rgb(0, 0, 0),
+    3px -3px 10px rgba(255, 255, 255, 0.808), 10px -10px 20px rgb(0, 0, 0),
+    -3px 3px 10px rgba(0, 0, 0, 0.808);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   align-self: center;
   background: black;
@@ -91,7 +97,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(255, 255, 255);
   border: 2px solid black;
   z-index: 100;
@@ -100,11 +105,14 @@ body {
 .clock-container .hour-container .time {
   font-size: 26px;
   text-align: center;
+  font-weight: 650;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .clock-container .hour-container .ampm {
   font-size: 1.6rem;
   text-align: center;
+  font-weight: 650;
   letter-spacing: 1px;
 }
 
@@ -118,11 +126,13 @@ body {
   }
 
   .clock-container .sec-container {
-    box-shadow: 0 0 20px rgb(0, 0, 0), 0 0 40px rgb(0, 0, 0),
-      0 0 60px rgba(0, 0, 0, 0.555);
-  }
-
-  .text-container h1 {
-    z-index: 100;
+    box-shadow: 3px 3px 6px white, -5px -5px 10px rgb(0, 0, 0),
+    -3px -3px 6px white, 5px 5px 10px rgb(0, 0, 0), -3px 3px 6px white,
+    -5px 5px 10px rgb(0, 0, 0), 3px -3px 6px white, 5px -5px 10px rgb(0, 0, 0),
+    3px 3px 10px white, -10px -10px 20px rgb(0, 0, 0),
+    -3px -3px 10px rgba(255, 255, 255, 0.808), 10px 10px 20px rgb(0, 0, 0),
+    -3px -3px 10px rgba(255, 255, 255, 0.808), -10px 10px 20px rgb(0, 0, 0),
+    3px -3px 10px rgba(255, 255, 255, 0.808), 10px -10px 20px rgb(0, 0, 0),
+    -3px 3px 10px rgba(255, 255, 255, 0.808);
   }
 }
