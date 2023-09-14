@@ -65,7 +65,7 @@ body {
   font-size: 8px;
   inset: 8px;
   text-align: center;
-  font-weight: 00;
+  font-weight: 600;
 }
 
 .clock-container .mins-container {
@@ -118,7 +118,7 @@ body {
 
 /* --------Media Queries-------- */
 
-@media screen and (width < 720px) {
+@media screen and (max-width: 720px) {
   .clock-container {
     transform: scale(0.9);
     transform-origin: center;
@@ -127,12 +127,12 @@ body {
 
   .clock-container .sec-container {
     box-shadow: 3px 3px 6px white, -5px -5px 10px rgb(0, 0, 0),
-    -3px -3px 6px white, 5px 5px 10px rgb(0, 0, 0), -3px 3px 6px white,
-    -5px 5px 10px rgb(0, 0, 0), 3px -3px 6px white, 5px -5px 10px rgb(0, 0, 0),
-    3px 3px 10px white, -10px -10px 20px rgb(0, 0, 0),
-    -3px -3px 10px rgba(255, 255, 255, 0.808), 10px 10px 20px rgb(0, 0, 0),
-    -3px -3px 10px rgba(255, 255, 255, 0.808), -10px 10px 20px rgb(0, 0, 0),
-    3px -3px 10px rgba(255, 255, 255, 0.808), 10px -10px 20px rgb(0, 0, 0),
-    -3px 3px 10px rgba(255, 255, 255, 0.808);
+      -3px -3px 6px white, 5px 5px 10px rgb(0, 0, 0), -3px 3px 6px white,
+      -5px 5px 10px rgb(0, 0, 0), 3px -3px 6px white, 5px -5px 10px rgb(0, 0, 0),
+      3px 3px 10px white, -10px -10px 20px rgb(0, 0, 0),
+      -3px -3px 10px rgba(255, 255, 255, 0.808), 10px 10px 20px rgb(0, 0, 0),
+      -3px -3px 10px rgba(255, 255, 255, 0.808), -10px 10px 20px rgb(0, 0, 0),
+      3px -3px 10px rgba(255, 255, 255, 0.808), 10px -10px 20px rgb(0, 0, 0),
+      -3px 3px 10px rgba(255, 255, 255, 0.808);
   }
 }
